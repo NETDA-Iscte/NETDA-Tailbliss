@@ -120,18 +120,18 @@ img[loading="lazy"] {
     "prose-2xl";
   
   /* Primary Colors - Yellow with OKLCH */
-  --color-primary: oklch(94.3% .067 85.68);      /* Tailwind Yellow 500 */
-  --color-primary-50: oklch(99.7% .015 85.68);   /* Tailwind Yellow 50 */
-  --color-primary-100: oklch(97.4% .029 85.68);  /* Tailwind Yellow 100 */
-  --color-primary-200: oklch(95.5% .046 85.68);  /* Tailwind Yellow 200 */
-  --color-primary-300: oklch(92.6% .063 85.68);  /* Tailwind Yellow 300 */
-  --color-primary-400: oklch(89.8% .085 85.68);  /* Tailwind Yellow 400 */
-  --color-primary-500: oklch(94.3% .067 85.68);  /* Tailwind Yellow 500 */
-  --color-primary-600: oklch(83.5% .138 85.68);  /* Tailwind Yellow 600 */
-  --color-primary-700: oklch(72.4% .189 85.68);  /* Tailwind Yellow 700 */
-  --color-primary-800: oklch(63.2% .226 85.68);  /* Tailwind Yellow 800 */
-  --color-primary-900: oklch(55.0% .239 85.68);  /* Tailwind Yellow 900 */
-  --color-primary-950: oklch(39.8% .239 85.68);  /* Tailwind Yellow 950 */
+  --color-primary: oklch(82.9% .119 75.8);        /* Tailwind Amber 500 */
+  --color-primary-50: oklch(98.7% .022 75.8);     /* Tailwind Amber 50 */
+  --color-primary-100: oklch(96.2% .059 75.8);    /* Tailwind Amber 100 */
+  --color-primary-200: oklch(92.4% .120 75.8);    /* Tailwind Amber 200 */
+  --color-primary-300: oklch(87.9% .169 75.8);    /* Tailwind Amber 300 */
+  --color-primary-400: oklch(82.9% .119 75.8);    /* Tailwind Amber 400 */
+  --color-primary-500: oklch(76.9% .188 75.8);    /* Tailwind Amber 500 */
+  --color-primary-600: oklch(66.6% .179 75.8);    /* Tailwind Amber 600 */
+  --color-primary-700: oklch(55.5% .163 75.8);    /* Tailwind Amber 700 */
+  --color-primary-800: oklch(47.3% .137 75.8);    /* Tailwind Amber 800 */
+  --color-primary-900: oklch(41.4% .112 75.8);    /* Tailwind Amber 900 */
+  --color-primary-950: oklch(27.9% .077 75.8);    /* Tailwind Amber 950 */
 
   /* Secondary Colors - Pink with OKLCH */
   --color-secondary: oklch(65.6% .241 354.308);
@@ -162,17 +162,17 @@ img[loading="lazy"] {
   --color-neutral-950: oklch(14.5% 0 0);
 
   /* Gray color scale with OKLCH */
-  --color-gray-50: oklch(98.5% .002 247.839);
-  --color-gray-100: oklch(96.7% .003 264.542);
-  --color-gray-200: oklch(92.8% .006 264.531);
-  --color-gray-300: oklch(87.2% .01 258.338);
-  --color-gray-400: oklch(70.7% .022 261.325);
-  --color-gray-500: oklch(55.1% .027 264.364);
-  --color-gray-600: oklch(44.6% .03 256.802);
-  --color-gray-700: oklch(37.3% .034 259.733);
-  --color-gray-800: oklch(27.8% .033 256.848);
-  --color-gray-900: oklch(21% .034 264.665);
-  --color-gray-950: oklch(13% .028 261.692);
+  --color-gray-50:   oklch(98.5% 0.003 74.72);   /* Warm White / Marble */
+  --color-gray-100:  oklch(97% 0.005 74.83);     /* Limestone */
+  --color-gray-200:  oklch(92.8% 0.008 72.58);   /* Light Sand */
+  --color-gray-300:  oklch(87.2% 0.012 70.34);   /* Sandstone */
+  --color-gray-400:  oklch(70.7% 0.024 68.42);   /* Warm Pebble */
+  --color-gray-500:  oklch(55.1% 0.029 67.14);   /* Taupe / Earth */
+  --color-gray-600:  oklch(44.6% 0.031 66.51);   /* Warm Gray */
+  --color-gray-700:  oklch(37.3% 0.033 66.71);   /* Rock */
+  --color-gray-800:  oklch(27.8% 0.030 67.63);   /* Shale */
+  --color-gray-900:  oklch(21% 0.028 70.53);     /* Charcoal */
+  --color-gray-950:  oklch(13% 0.020 74.52);     /* Deep Slate */
 
   /* Zinc color scale with OKLCH */
   --color-zinc-50: oklch(98.5% 0 0);
@@ -188,17 +188,17 @@ img[loading="lazy"] {
   --color-zinc-950: oklch(14.1% .005 285.823);
 
   /* Yellow color override with OKLCH (alias for primary) */
-  --color-indigo-50: oklch(99.7% .015 85.68);
-  --color-indigo-100: oklch(97.4% .029 85.68);  /* Tailwind Yellow 100 */
-  --color-indigo-200: oklch(95.5% .046 85.68);  /* Tailwind Yellow 200 */
-  --color-indigo-300: oklch(92.6% .063 85.68);  /* Tailwind Yellow 300 */
-  --color-indigo-400: oklch(89.8% .085 85.68);  /* Tailwind Yellow 400 */
-  --color-indigo-500: oklch(94.3% .067 85.68);  /* Tailwind Yellow 500 */
-  --color-indigo-600: oklch(83.5% .138 85.68);  /* Tailwind Yellow 600 */
-  --color-indigo-700: oklch(72.4% .189 85.68);  /* Tailwind Yellow 700 */
-  --color-indigo-800: oklch(63.2% .226 85.68);  /* Tailwind Yellow 800 */
-  --color-indigo-900: oklch(55.0% .239 85.68);  /* Tailwind Yellow 900 */
-  --color-indigo-950: oklch(39.8% .239 85.68);  /* Tailwind Yellow 950 */
+  --color-indigo-50: oklch(98.7% .022 75.8);     /* Tailwind Amber 50 */
+  --color-indigo-100: oklch(96.2% .059 75.8);    /* Tailwind Amber 100 */
+  --color-indigo-200: oklch(92.4% .120 75.8);    /* Tailwind Amber 200 */
+  --color-indigo-300: oklch(87.9% .169 75.8);    /* Tailwind Amber 300 */
+  --color-indigo-400: oklch(82.9% .119 75.8);    /* Tailwind Amber 400 */
+  --color-indigo-500: oklch(76.9% .188 75.8);    /* Tailwind Amber 500 */
+  --color-indigo-600: oklch(66.6% .179 75.8);    /* Tailwind Amber 600 */
+  --color-indigo-700: oklch(55.5% .163 75.8);    /* Tailwind Amber 700 */
+  --color-indigo-800: oklch(47.3% .137 75.8);    /* Tailwind Amber 800 */
+  --color-indigo-900: oklch(41.4% .112 75.8);    /* Tailwind Amber 900 */
+  --color-indigo-950: oklch(27.9% .077 75.8);    /* Tailwind Amber 950 */
 
   /* White and black */
   --color-white: #fff;
